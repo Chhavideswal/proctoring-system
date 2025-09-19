@@ -1,0 +1,11 @@
+body { font-family: Arial, Helvetica, sans-serif; background:#f7f7fb; margin:0; padding:0; }
+.container { max-width:1100px; margin:20px auto; padding:18px; background:white; border-radius:10px; box-shadow:0 2px 12px rgba(0,0,0,0.06); }
+.grid { display:grid; grid-template-columns: 1fr 360px; gap:18px; align-items:start; }
+.videoWrap { position: relative; width:100%; max-width:820px; }
+video { width:100%; height:auto; border-radius:8px; background:#000; }
+canvas.overlay { position:absolute; left:0; top:0; pointer-events:none; border-radius:8px; }
+.controls { display:flex; gap:8px; margin-top:12px; align-items:center; }
+.log { font-family: monospace; font-size:13px; background:#111; color:#0f0; padding:8px; border-radius:6px; height:220px; overflow:auto; }
+.badge { display:inline-block; padding:6px 10px; background:#ffefc2; border-radius:6px; font-weight:600; }
+.small { font-size:13px; color:#666; }
+button { cursor:pointer; padding:8px 12px; border-radius:6px; border:1px solid #ddd; background:white; }
